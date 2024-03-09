@@ -1,0 +1,29 @@
+.content{
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     
+    p{
+        color:#fff;
+        font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+        margin-top: 2rem;
+        line-height: 2rem;
+    }
+    .btn_1{
+        color: white;
+        background:red;
+        border: 2px solid red;
+        padding: 1rem;
+        border-radius: 0.7rem;
+    }
+
+    .btn_1:hover{
+        background: transparent;
+      }
+}
+
